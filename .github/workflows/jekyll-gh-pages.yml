@@ -49,7 +49,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-                      - name: Setup .NET Core SDK
-                uses: actions/setup-dotnet@v4.2.0
-            
